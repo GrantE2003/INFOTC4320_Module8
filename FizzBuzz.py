@@ -15,4 +15,7 @@ for i in range(1,101):
     if ((i % 5) == 0):
         # Print Buzz if "i" is a multiple of 5
         print("Buzz")
-    # Print "i" if it is not a multiple of 3 or 5
+    # Check if number "i" is not a multiple of 3 or 5
+    else :
+        # Print "i" if it is not a multiple of 3 or 5
+        print(i)
