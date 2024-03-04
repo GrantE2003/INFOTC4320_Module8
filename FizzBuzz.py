@@ -8,7 +8,9 @@ for i in range(1,101):
         # Print FizzBuzz if "i" is a multiple of 3 and 5
         print("FizzBuzz")
     # Check to see if "i" is multiple of 3
-    
+    if ((i % 3) == 0):
+        # Print Fizz if "i" is a multiple of 3
+        print("Fizz")
     # Check to see if "i" is a multiple of 5
 
     # Print "i" if it is not a multiple of 3 or 5
